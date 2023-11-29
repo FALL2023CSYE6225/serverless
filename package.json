@@ -1,0 +1,22 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "aws lambda function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajit Patil",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^7.6.0",
+    "@pulumi/gcp": "^7.2.1",
+    "@pulumi/pulumi": "^3.94.2",
+    "aws-sdk": "^2.1503.0",
+    "axios": "^1.6.2",
+    "form-data": "^4.0.0",
+    "jszip": "^3.10.1",
+    "mailgun.js": "^9.3.0",
+    "uuid": "^9.0.1"
+  }
+}
